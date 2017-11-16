@@ -115,4 +115,5 @@ git push origin ${CURRENT_BRANCH}
 echo Build directory ${TMPDIR}
 cd ${WORKDIR}
 
-git checkout origin ${BRANCH_NAME}
+git fetch
+git checkout ${BRANCH_NAME}
